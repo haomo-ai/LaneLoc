@@ -11,13 +11,16 @@ We recommend you follow our code and data structures as follows.
 
 We use pytorch-gpu for neural networks.
 
-An nvidia GPU is needed for faster retrival. OverlapTransformer is also fast enough when using the neural network on CPU.
+An nvidia GPU is needed for faster retrival. LaneLoc is also fast enough when using the neural network on CPU.
 
 To use a GPU, first you need to install the nvidia driver and CUDA.
 
 ## 3. Dataset introduction
-Directory Structure:
 
+The dataset can be downloaded from:
+https://drive.google.com/file/d/1HwxNsma9yj4ZNvZ2vIXjMAS4w50LVCJJ/view?usp=drive_link
+
+Directory Structure:
 ```
 TuSimple Ego-lane
   |
@@ -29,8 +32,6 @@ TuSimple Ego-lane
          |----0530/                   # Sequential images for the clip, 20 frames
          |----0601
 ```
-
-
 
 ```
 CULane Ego-lane
@@ -48,17 +49,14 @@ CULane Ego-lane
 
 ## 4. How to use
 ### Step 1. Generate txt files  
-根据前述步骤完成，原始数据下载、离线生成感知的车道线和道路边缘json文件  
-运行 python3 data_util/data_gene_rgb.py，生成用于训练的txt文件
+generate the txt files for training
 ```
-在19行设置数据root path  
-如果想使用标注的车道线以及道路边缘结果，需要修改29行json目录  
+python txt_tusimple.py
+python txt_culane.py
 ```
 
-### Step 2. Training  
-Step.1 生成验证图片的path.txt
-
-### Step 3. evaluation   
+### Step 2. run demo  
 ```
-python evaluation.py
+python demo_culane.py
+python demo_tusimple.py
 ```
