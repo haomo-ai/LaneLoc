@@ -17,8 +17,10 @@ To use a GPU, first you need to install the nvidia driver and CUDA.
 
 ## 3. Dataset introduction
 
-The dataset can be downloaded from:
-https://drive.google.com/file/d/1HwxNsma9yj4ZNvZ2vIXjMAS4w50LVCJJ/view?usp=drive_link
+The dataset can be downloaded from: 
+
+https://drive.google.com/file/d/1HwxNsma9yj4ZNvZ2vIXjMAS4w50LVCJJ/view?usp=drive_link 
+https://drive.google.com/file/d/1CTZCoQWQ_zKXqk0DYjT6aGSVnyGo5oCY/view?usp=sharing
 
 Directory Structure:
 ```
