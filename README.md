@@ -19,8 +19,12 @@ To use a GPU, first you need to install the nvidia driver and CUDA.
 
 The ego-lane index annotation results can be downloaded from: 
 
+### TuSimple
 https://drive.google.com/file/d/1HwxNsma9yj4ZNvZ2vIXjMAS4w50LVCJJ/view?usp=sharing
-https://drive.google.com/file/d/1CTZCoQWQ_zKXqk0DYjT6aGSVnyGo5oCY/view?usp=sharing
+
+### CULane
+https://drive.google.com/file/d/1CTZCoQWQ_zKXqk0DYjT6aGSVnyGo5oCY/view?usp=sharing   (part1)
+https://www.dropbox.com/scl/fi/k8h7i7h5grd75bfa19a7y/CULane-Ego-lane-part2.zip?rlkey=jscmnucfy4xuqxnx6so2lzvqm&st=bv0xszok&dl=0  (part2)
 
 the dataset should be organized by this Structure:
 ```
